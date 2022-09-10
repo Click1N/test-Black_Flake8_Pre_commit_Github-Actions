@@ -21,6 +21,6 @@ jobs:
       - name: Make autoformatting # new command with black check
         run: |
           black ./
-      - name: Check codestyle # new command with flake8 chec
+      - name: Check codestyle # new command with flake8 check
         run: |
           flake8 ./
